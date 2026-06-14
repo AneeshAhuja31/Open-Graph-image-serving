@@ -9,7 +9,6 @@ import (
 )
 
 type User struct {
-	ID string `json:"id" bson:"_id,omitempty"`
 	Username string `json:"username" bson:"username"`
 	Points int `json:"points" bson:"points"`
 }
